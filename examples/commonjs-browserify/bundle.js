@@ -1430,6 +1430,8 @@ _.info = {
                 params[kwkey] = kw;
             } else if (default_value !== undefined) {
                 params[kwkey] = default_value;
+            } else {
+                params[kwkey] = "direct";
             }
         });
 
